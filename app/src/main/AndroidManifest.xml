@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Teamowork"
         tools:targetApi="31">
         <activity
+            android:name=".HasanovActivity"
+            android:exported="false" />
+        <activity
             android:name=".KroshHakerActivity"
             android:exported="false" />
         <activity
