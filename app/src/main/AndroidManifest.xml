@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Teamowork"
         tools:targetApi="31">
         <activity
+        android:name=".KiamovActivity"
+        android:exported="false" /> 
+        <activity
          android:name=".SlobodianiukActivity"
          android:exported="false" /> 
        <activity
