@@ -6,13 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
 
+        <Button
+            android:id="@+id/button_hasanov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Хасанов" />
+
+        <Button
+            android:id="@+id/button_khusainov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Хусаинов" />
+
+        <Button
+            android:id="@+id/button_kiamov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Киямов" />
+
+        <Button
+            android:id="@+id/button_kolesnikov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Колесников" />
+
+        <Button
+            android:id="@+id/button_kroshaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Хазиев" />
+
+        <Button
+            android:id="@+id/button_pronin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пронин" />
+
+        <Button
+            android:id="@+id/button_slobodianiuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Слободянюк" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
