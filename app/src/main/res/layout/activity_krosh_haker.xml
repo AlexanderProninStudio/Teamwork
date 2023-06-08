@@ -18,6 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="SpeakableTextPresentCheck"
         tools:text=" " />
 
@@ -33,14 +34,28 @@
 
     <TextView
         android:id="@+id/Score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Счёт: 0"
+        android:layout_width="347dp"
+        android:layout_height="66dp"
+        android:text="Баланс: 0$"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toTopOf="@+id/moneta"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
+        app:layout_constraintVertical_bias="0.606" />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="235dp"
+        android:layout_height="57dp"
+        android:text="Купить улучшение (+1) \n Стоимость: 500$"
+        app:backgroundTint="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moneta"
+        app:layout_constraintVertical_bias="0.758" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
