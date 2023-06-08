@@ -4,22 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KhusainovActivity">
+    tools:context=".KolesnikovActivity">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Нажать"
-        android:textColor="#000000"
-        android:textColorHighlight="#9C27B0"
-        android:textColorLink="#9C27B0"
-        app:backgroundTint="#A9CEE110"
+        android:text="Просто кнопка"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
